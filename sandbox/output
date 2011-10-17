@@ -1,4 +1,2 @@
-.
-Tests run: 1, Failures: 0, Not run: 0, Time: 0.022 seconds
-
-
+Untitled.cs(43,24): error CS0161: `LifeCalculator.CountNeighbors(string[], int, int)': not all code paths return a value
+Compilation failed: 1 error(s), 0 warnings

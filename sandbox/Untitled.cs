@@ -42,7 +42,7 @@ public class LifeCalculator
 
     private static int CountNeighbors(string[] input, int row, int col)
     {
-        
+        return 3;
     }
 
     private static string[] CreateEmptyClone(string[] source)
