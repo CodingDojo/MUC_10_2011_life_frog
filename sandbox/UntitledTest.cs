@@ -1,4 +1,4 @@
-
+using System;
 using NUnit.Framework;
 
 [TestFixture]
@@ -93,7 +93,7 @@ public class UntitledTest
     {
         try
         {
-            var result = LifeCalculator.Calc(new string[]{"*",""});
+            LifeCalculator.Calc(new string[]{"*",""});
             Assert.Fail("Should throw argument exception");
         }
         catch(ArgumentException)

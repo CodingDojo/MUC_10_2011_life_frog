@@ -1,4 +1,3 @@
-.........
-Tests run: 9, Failures: 0, Not run: 0, Time: 0.030 seconds
-
-
+UntitledTest.cs(96,17): warning CS0168: The variable `result' is declared but never used
+UntitledTest.cs(99,15): error CS0246: The type or namespace name `ArgumentException' could not be found. Are you missing a using directive or an assembly reference?
+Compilation failed: 1 error(s), 1 warnings
