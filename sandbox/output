@@ -1,9 +1,11 @@
 .F.
-Tests run: 2, Failures: 1, Not run: 0, Time: 0.059 seconds
+Tests run: 2, Failures: 1, Not run: 0, Time: 0.066 seconds
 
 Test Case Failures:
-1) UntitledTest.Complex2x2ToLife :   Expected: 1
-  But was:  2
+1) UntitledTest.Complex2x2ToLife :   String lengths are both 2. Strings differ at index 0.
+  Expected: "**"
+  But was:  ".."
+  -----------^
 
 at UntitledTest.Complex2x2ToLife () [0x00000]
 at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)

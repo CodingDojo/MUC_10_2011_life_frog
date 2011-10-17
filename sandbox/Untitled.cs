@@ -3,7 +3,25 @@ public class LifeCalculator
 {
     public static string[] Calc(string[] input)
     {
-        return CreateEmptyClone(input);
+        var output = CreateEmptyClone(input);
+        for (int row = 0; row < input.Length; row++)
+        {
+            for (int col = 0; col < input[row].Length; col++)
+            {
+                 bool life = CalculateCell(input, row, col);
+                 if (life)
+                 {
+                    var array = input[row].ToCharArray();
+                    array[col] = '*';
+                    input[row] = new string(array);
+                 }
+            }
+        }
+    }
+
+    private static bool CalculateCell(string[] input, int row, int col)
+    {
+        return true;
     }
 
     private static string[] CreateEmptyClone(string[] source)
