@@ -29,7 +29,7 @@ public class UntitledTest
     }
 
     [Test]
-    public void Complex2x2ToLife()
+    public void Complex1x3ToLife()
     {
         var result = LifeCalculator.Calc(new string[]{  "*",
                                                         "*",
