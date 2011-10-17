@@ -40,7 +40,7 @@ public class UntitledTest
         Assert.AreEqual(".",result[2]);
     }
 
-//    [Test]
+    [Test]
     public void Complex2x2ToLife()
     {
         var result = LifeCalculator.Calc(new string[]{".*",

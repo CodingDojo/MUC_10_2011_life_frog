@@ -1,3 +1,4 @@
-UntitledTest.cs(44,17): error CS0111: A member `UntitledTest.Complex2x2ToLife()' is already defined. Rename this member or use different parameter types
-UntitledTest.cs(32,17): (Location of the symbol related to previous error)
-Compilation failed: 1 error(s), 0 warnings
+....
+Tests run: 4, Failures: 0, Not run: 0, Time: 0.026 seconds
+
+
