@@ -28,7 +28,7 @@ public class UntitledTest
         Assert.AreEqual("...",result[0]);
     }
 
-//    [Test]
+    [Test]
     public void Complex2x2ToLife()
     {
         var result = LifeCalculator.Calc(new string[]{".*",
