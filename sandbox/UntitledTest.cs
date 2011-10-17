@@ -78,6 +78,7 @@ public class UntitledTest
         var result = LifeCalculator.Calc(new string[]{ });
         Assert.AreEqual(0, result.Length);
     }
+
     [Test]
     public void EmptyRow()
     {
@@ -85,6 +86,23 @@ public class UntitledTest
         Assert.AreEqual(2, result.Length);
         Assert.AreEqual("", result[0]);
         Assert.AreEqual("", result[1]);
+    }
+
+    [Test]
+    public void Error1()
+    {
+        try
+        {
+            var result = LifeCalculator.Calc(new string[]{"*",""});
+            Assert.Fail("Should throw argument exception");
+        }
+        catch(ArgumentException)
+        {
+        }
+        catch
+        {
+            Assert.Fail("Should throw argument exception");
+        }
     }
 
 }
