@@ -42,7 +42,17 @@ public class LifeCalculator
 
     private static int CountNeighbors(string[] input, int row, int col)
     {
-        return 0;
+        int neighbors = 0;
+
+        //    Look Left
+        if(col > 0 && input[row][col - 1] == '*')
+            neighbors++;
+        
+        //    Look Right
+        if(col < input[row].Length - 1 && input[row][col + 1] == '*')
+              neighbors++;
+
+        return neighbors;
     }
 
     private static string[] CreateEmptyClone(string[] source)
