@@ -1,8 +1,9 @@
 ..F...
-Tests run: 5, Failures: 1, Not run: 0, Time: 0.067 seconds
+Tests run: 5, Failures: 1, Not run: 0, Time: 0.075 seconds
 
 Test Case Failures:
-1) UntitledTest.Complex2x2ToLife :   String lengths are both 2. Strings differ at index 0.
+1) UntitledTest.Complex2x2ToLife :   Second Row failed.
+  String lengths are both 2. Strings differ at index 0.
   Expected: "**"
   But was:  ".*"
   -----------^
