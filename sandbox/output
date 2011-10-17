@@ -1,2 +1,8 @@
-UntitledTest.cs(11,14): error CS1525: Unexpected symbol `Assert'
-Compilation failed: 1 error(s), 0 warnings
+UntitledTest.cs(10,22): error CS0103: The name `Calc' does not exist in the current context
+UntitledTest.cs(11,35): error CS1061: Type `object' does not contain a definition for `Length' and no extension method `Length' of type `object' could be found (are you missing a using directive or an assembly reference?)
+UntitledTest.cs(12,29): error CS0021: Cannot apply indexing with [] to an expression of type `object'
+UntitledTest.cs(18,22): error CS0103: The name `Calc' does not exist in the current context
+UntitledTest.cs(20,35): error CS1061: Type `object' does not contain a definition for `Length' and no extension method `Length' of type `object' could be found (are you missing a using directive or an assembly reference?)
+UntitledTest.cs(21,30): error CS0021: Cannot apply indexing with [] to an expression of type `object'
+UntitledTest.cs(22,30): error CS0021: Cannot apply indexing with [] to an expression of type `object'
+Compilation failed: 7 error(s), 0 warnings

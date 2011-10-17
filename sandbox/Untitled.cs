@@ -1,5 +1,5 @@
 
-public class Untitled
+public class LifeCalculator
 {
     public static string[] Calc(string[] input)
     {
