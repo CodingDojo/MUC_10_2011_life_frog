@@ -79,7 +79,7 @@ public class UntitledTest
         Assert.AreEqual(0, result.Length);
     }
     [Test]
-    public void Empty()
+    public void EmptyRow()
     {
         var result = LifeCalculator.Calc(new string[]{"",""});
         Assert.AreEqual(1, result.Length);
