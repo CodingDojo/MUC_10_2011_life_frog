@@ -1,2 +1,5 @@
-Untitled.cs(43,24): error CS0161: `LifeCalculator.CountNeighbors(string[], int, int)': not all code paths return a value
-Compilation failed: 1 error(s), 0 warnings
+UntitledTest.cs(18,60): error CS1525: Unexpected symbol `)', expecting `,', or `}'
+UntitledTest.cs(19,41): error CS1525: Unexpected symbol `)', expecting `,', or `}'
+UntitledTest.cs(20,40): error CS1525: Unexpected symbol `)', expecting `,', or `}'
+UntitledTest.cs(24,10): error CS1525: Unexpected symbol `public', expecting `,', or `}'
+Compilation failed: 4 error(s), 0 warnings
