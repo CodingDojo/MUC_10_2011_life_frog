@@ -46,8 +46,8 @@ public class UntitledTest
         var result = LifeCalculator.Calc(new string[]{ ".*",
                                                        "**"});
         Assert.AreEqual(2, result.Length);
-        Assert.AreEqual("**",result[0]);
-        Assert.AreEqual("**",result[1]);
+        Assert.AreEqual("**",result[0], "First Row failed.");
+        Assert.AreEqual("**",result[1], "Second Row failed.");
     }
 
 }
