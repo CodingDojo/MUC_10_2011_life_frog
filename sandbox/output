@@ -1,5 +1,23 @@
-UntitledTest.cs(18,60): error CS1525: Unexpected symbol `)', expecting `,', or `}'
-UntitledTest.cs(19,41): error CS1525: Unexpected symbol `)', expecting `,', or `}'
-UntitledTest.cs(20,40): error CS1525: Unexpected symbol `)', expecting `,', or `}'
-UntitledTest.cs(24,10): error CS1525: Unexpected symbol `public', expecting `,', or `}'
-Compilation failed: 4 error(s), 0 warnings
+.F.F
+Tests run: 2, Failures: 2, Not run: 0, Time: 0.069 seconds
+
+Test Case Failures:
+1) UntitledTest.Simple :   String lengths are both 1. Strings differ at index 0.
+  Expected: "."
+  But was:  "*"
+  -----------^
+
+at UntitledTest.Simple () [0x00000]
+at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000]
+
+2) UntitledTest.Simple3x1ToLife :   String lengths are both 3. Strings differ at index 0.
+  Expected: "..."
+  But was:  "***"
+  -----------^
+
+at UntitledTest.Simple3x1ToLife () [0x00000]
+at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000]
+
+
