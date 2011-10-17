@@ -1,3 +1,2 @@
 UntitledTest.cs(11,14): error CS1525: Unexpected symbol `Assert'
-UntitledTest.cs(20,14): error CS1525: Unexpected symbol `Assert'
-Compilation failed: 2 error(s), 0 warnings
+Compilation failed: 1 error(s), 0 warnings

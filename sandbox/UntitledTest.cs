@@ -7,7 +7,7 @@ public class UntitledTest
     [Test]
     public void Simple()
     {
-        var result = Calc(new string[]{"."})
+        var result = Calc(new string[]{"."});
         Assert.AreEqual(1, result.Length);
         Assert.AreEqual(".",result[0]);
     }
