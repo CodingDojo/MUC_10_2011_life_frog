@@ -5,11 +5,22 @@ using NUnit.Framework;
 public class UntitledTest
 {
     [Test]
-    public void HitchHiker()
+    public void Simple()
     {
-        int expected = 6 * 9;
-        int actual = Untitled.Answer;
-        Assert.AreEqual(expected, actual);
+        var result = Calc(new string[]{"."})
+        Assert.AreEqual(1, result.Length);
+        Assert.AreEqual(".",result[0]);
     }
+
+    [Test]
+    public void Complex2x2ToLife()
+    {
+        var result = Calc(new string[]{".*",
+                                       "**"})
+        Assert.AreEqual(1, result.Length);
+        Assert.AreEqual("**",result[0]);
+        Assert.AreEqual("**",result[0]);
+    }
+
 }
 
