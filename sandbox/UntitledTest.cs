@@ -15,6 +15,14 @@ public class UntitledTest
     [Test]
     public void Simple3x1ToLife()
     {
+        var result = LifeCalculator.Calc(new string[]{"***"});
+        Assert.AreEqual(1, result.Length);
+        Assert.AreEqual(".*.",result[0]);
+    }
+
+    [Test]
+    public void Simple3x1ToDead()
+    {
         var result = LifeCalculator.Calc(new string[]{".*."});
         Assert.AreEqual(1, result.Length);
         Assert.AreEqual("...",result[0]);
