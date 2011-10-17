@@ -56,6 +56,10 @@ public class LifeCalculator
         //    Look Down
         if(row < input.Length - 1 && input[row+1][col] == '*')
               neighbors++;
+        //    Look Down and Right
+        if(row < input.Length - 1 && col < input[row].Length - 1 &&
+            input[row + 1][col + 1] == '*')
+              neighbors++;
 
         return neighbors;
     }
