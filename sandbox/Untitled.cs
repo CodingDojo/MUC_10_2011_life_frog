@@ -11,12 +11,13 @@ public class LifeCalculator
                  bool life = CalculateCell(input, row, col);
                  if (life)
                  {
-                    var array = input[row].ToCharArray();
+                    var array = output[row].ToCharArray();
                     array[col] = '*';
-                    input[row] = new string(array);
+                    output[row] = new string(array);
                  }
             }
         }
+        return output;
     }
 
     private static bool CalculateCell(string[] input, int row, int col)
