@@ -50,5 +50,16 @@ public class UntitledTest
         Assert.AreEqual("**",result[1], "Second Row failed.");
     }
 
+[Test]
+    public void Complex2x2ToLife2()
+    {
+        var result = LifeCalculator.Calc(new string[]{ "**",
+                                                       "*."});
+        Assert.AreEqual(2, result.Length);
+        Assert.AreEqual("**",result[0], "First Row failed.");
+        Assert.AreEqual("**",result[1], "Second Row failed.");
+    }
+
+
 }
 
